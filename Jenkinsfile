@@ -1,6 +1,8 @@
 pipeline {
   agent any
-    
+  environment {
+    PORT=
+  }
   stages {
         
     stage('Checkout') {
